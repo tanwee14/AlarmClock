@@ -1,3 +1,35 @@
+# ⏰ Alarm Clock React App
+
+This is a simple and elegant Alarm Clock built using React. It allows users to set an alarm for a specific time and alerts the user when the set time is reached.
+
+## Features
+
+- Displays real-time digital clock.
+- Dropdown selectors to set alarm hour and minute.
+- Alarm rings with an alert popup at the specified time.
+- Minimal, clean, and responsive design.
+
+## Technologies Used
+
+- React (Hooks: `useState`, `useEffect`)
+- CSS for styling
+
+## How It Works
+
+- The current time updates every second using `setInterval`.
+- Alarm is triggered when the current hour and minute match the selected values.
+
+## Getting Started
+
+### Installation
+
+```bash
+git clone <your-repo-url>
+cd alarm-clock-react
+npm install
+npm start
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
